@@ -549,15 +549,17 @@ position: absolute;
 
   .modal-content {
     background-color: white;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 8px;
     text-align: center;
   }
 
   .modalform-header {
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
+    text-align: left;
+    padding: 0 20px;
   }
 
 .modalform-group {
@@ -568,6 +570,7 @@ position: absolute;
 }
 
 .modalform-group label {
+  color: #666;
   font-size: 14px;
   margin-bottom: 5px;
   line-height: 18px;
@@ -594,7 +597,7 @@ position: absolute;
 }
 
 .modal-footer {
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
     justify-content: flex-start;
     padding: 0 20px;
